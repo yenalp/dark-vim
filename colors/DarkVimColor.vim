@@ -10,6 +10,7 @@
     syntax reset
   endif
   let g:colors_name="DarkVimColor"
+  let g:transparent_enabled = v:true
 " }}}
 " {{{ Italics
   let g:dark_vim_terminal_italic = get(g:, 'dark_vim_terminal_italic', 0)
