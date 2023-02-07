@@ -45,6 +45,7 @@
   let s:brown  = ['#fca100', '137']
   let s:lemon  = ['#fffb50', '80']
   let s:lghtgreen  = ['#60ff60', '81']
+  let s:Camel  = ['#d1a757', '82']
   let s:white  = ['#ffffff', '15']
   let s:none   = ['NONE',    'NONE']
 
@@ -173,12 +174,12 @@ endfunction
   call s:hi('TSPunctBracket',                     s:cyan,   '',       '',          '')
   call s:hi('TSPunctDelimiter',                   s:base07, '',       '',          '')
   call s:hi('TSParameter',                        s:base07, '',       '',          '')
-  call s:hi('TSType',                             s:blue,   '',       '',          '')
+  call s:hi('TSType',                             s:Camel,   '',       '',          '')
   call s:hi('TSFunction',                         s:cyan,   '',       '',          '')
 
   call s:hi('TSTagDelimiter',                     s:cyan,   '',       '',          '')
   call s:hi('TSProperty',                         s:yellow, '',       '',          '')
-  call s:hi('TSMethod',                           s:blue,   '',       '',          '')
+  call s:hi('TSMethod',                           s:Camel,   '',       '',          '')
   call s:hi('TSParameter',                        s:yellow, '',       '',          '')
   call s:hi('TSConstructor',                      s:base07, '',       '',          '')
   call s:hi('TSVariable',                         s:base07, '',       '',          '')
