@@ -95,7 +95,7 @@ Base colors used in the theme.
 
 _neovim_
 
-![](https://raw.githubusercontent.com/yenalp/dark-vim-colors/master/oceanic-next-dark.nvim.png)
+![](https://raw.githubusercontent.com/yenalp/dark-vim-colors/main/oceanic-next-dark.nvim.png)
 
 Shown here with [vim-devicons](https://github.com/ryanoasis/vim-devicons)
 

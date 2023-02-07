@@ -1,53 +1,53 @@
 " ===============================================================
-" OceanicNextLight
+" OceanicNext
 " Author: Mike Hartington
 " ===============================================================
 
 " {{{ Setup
-  set background=light
+  set background=dark
   hi clear
   if exists("syntax_on")
     syntax reset
   endif
-  let g:colors_name="OceanicNextLight"
+  let g:colors_name="DarkVim"
 " }}}
 " {{{ Italics
-  let g:oceanic_next_terminal_italic = get(g:, 'oceanic_next_terminal_italic', 0)
+  let g:dark_vim_terminal_italic = get(g:, 'dark_vim_terminal_italic', 0)
   let s:italic = ""
-  if g:oceanic_next_terminal_italic == 1
+  if g:dark_vim_terminal_italic == 1
     let s:italic = "italic"
   endif
-" }}}
+"}}}
 " {{{ Bold
-  let g:oceanic_next_terminal_bold = get(g:, 'oceanic_next_terminal_bold', 0)
+  let g:dark_vim_terminal_bold = get(g:, 'dark_vim_terminal_bold', 0)
   let s:bold = ""
-  if g:oceanic_next_terminal_bold == 1
+  if g:dark_vim_terminal_bold == 1
    let s:bold = "bold"
   endif
-" }}}
+"}}}
 " {{{ Colors
-  let s:base00 = ['#d8dee9', '253']
-  let s:base01 = ['#cdd3de', '252']
-  let s:base02 = ['#c0c5ce', '251']
-  let s:base03 = ['#a7adba', '145']
-  let s:base04 = ['#65737e', '243']
-  let s:base05 = ['#4f5b66', '240']
-  let s:base06 = ['#343d46', '237']
-  let s:base07 = ['#1b2b34', '235']
-  let s:red    = ['#b40b11', '124']
-  let s:orange = ['#b4713d', '131']
-  let s:yellow = ['#a48c32', '137']
-  let s:green  = ['#869235', '101']
-  let s:cyan   = ['#5b9c90',  '72']
-  let s:blue   = ['#526f93',  '60']
-  let s:purple = ['#896a98',  '96']
-  let s:brown  = ['#9a806d', '101']
-  let s:white  = ['#ffffff',  '15']
+  let s:base00 = ['#000000', '235']
+  let s:base01 = ['#343d46', '237']
+  let s:base02 = ['#4f5b66', '240']
+  let s:base03 = ['#65737e', '243']
+  let s:base04 = ['#a7adba', '145']
+  let s:base05 = ['#c0c5ce', '251']
+  let s:base06 = ['#cdd3de', '252']
+  let s:base07 = ['#d8dee9', '253']
+  let s:red    = ['#ec5f67', '203']
+  let s:orange = ['#f99157', '209']
+  let s:yellow = ['#fac863', '221']
+  let s:green  = ['#99c794', '114']
+  let s:cyan   = ['#62b3b2', '73']
+  let s:blue   = ['#6699cc', '68']
+  let s:purple = ['#c594c5', '176']
+  let s:brown  = ['#ab7967', '137']
+  let s:white  = ['#ffffff', '15']
   let s:none   = ['NONE',    'NONE']
 
 " }}}
 " {{{ Highlight function
-function! <sid>hi(group, fg, bg, attr, attrsp)
+function! s:hi(group, fg, bg, attr, attrsp)
   " fg, bg, attr, attrsp
   if !empty(a:fg)
     exec "hi " . a:group . " guifg=" .  a:fg[0]
@@ -163,6 +163,7 @@ endfunction
   call s:hi('LspDiagnosticsDefaultHint',          '',       '',       '',          '')
   call s:hi('LspDiagnosticsSignHint',             s:cyan,   '',       '',          '')
   call s:hi('LspDiagnosticsUnderlineHint',        '',       '',       'undercurl', '')
+
 
   " TreeSitter stuff
   call s:hi('TSInclude',                          s:cyan,   '',       '',          '')
@@ -364,5 +365,4 @@ else
      \]
 
 endif
-
 
