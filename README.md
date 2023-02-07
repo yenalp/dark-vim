@@ -1,7 +1,6 @@
-# Oceanic-Next.vim
+# dark-vim-colors.vim
 
-Oceanic-Next.vim is a neovim theme inspired by [Oceanic Next for Sublime](https://github.com/voronianski/oceanic-next-color-scheme).
-It is not a direct port, but uses some colors from the sublime theme, that are fitted to work with neovim and vim8.
+dark-vim-colors.vim is a neovim theme that are fitted to work with neovim and vim8.
 
 For best results, it is suggested that you use the following syntax plugins.
 
@@ -14,7 +13,7 @@ For best results, it is suggested that you use the following syntax plugins.
 All major plugin managers for vim/nvim are supported
 
  ```vim
-<PACKAGE_MANAGER> 'mhartington/oceanic-next'
+<PACKAGE_MANAGER> 'yenalp/dark-vim-colors'
  ```
 
 For vim, add the following to your `.vimrc`.
@@ -49,13 +48,13 @@ endif
 
 " Theme
 syntax enable
-colorscheme OceanicNext
+colorscheme DarkVimColors
 ```
 
 There is an included theme for vim-airline, to use it, just change the airline theme to:
 
 ```
-  let g:airline_theme='oceanicnext'
+  let g:airline_theme='darkvimcolors'
 ```
 
 There is a light mode, but it still needs some work.
@@ -71,11 +70,11 @@ If your terminal and setup supports it, you can enable italics and bold fonts wi
   syntax on
   let g:oceanic_next_terminal_bold = 1
   let g:oceanic_next_terminal_italic = 1
-  colorscheme OceanicNext
+  colorscheme DarkVimColors
 ```
 
 If your terminal has transparancy, you can enable it in neovim by adding the
-following lines to your init.vim **after** calling `colorscheme OceanicNext`:
+following lines to your init.vim **after** calling `colorscheme DarkVimColors`:
 
 ```viml
 hi Normal guibg=NONE ctermbg=NONE
@@ -96,7 +95,7 @@ Base colors used in the theme.
 
 _neovim_
 
-![](https://raw.githubusercontent.com/mhartington/oceanic-next/master/oceanic-next-dark.nvim.png)
+![](https://raw.githubusercontent.com/yenalp/dark-vim-colors/master/oceanic-next-dark.nvim.png)
 
 Shown here with [vim-devicons](https://github.com/ryanoasis/vim-devicons)
 
