@@ -131,9 +131,9 @@ endfunction
 
   call s:hi('Identifier',                         s:cyan,   '',       '',          '')
   call s:hi('Include',                            s:blue,   '',       '',          '')
-  call s:hi('Keyword',                            s:purple, '',       '',          '')
+  call s:hi('Keyword',                            s:lemon, '',       '',          '')
 
-  call s:hi('Label',                              s:lghtgreen, '',       '',          '')
+  call s:hi('Label',                              s:lemon, '',       '',          '')
   call s:hi('Number',                             s:orange, '',       '',          '')
   call s:hi('Operator',                           s:base05, '',       '',          '')
   call s:hi('PreProc',                            s:yellow, '',       '',          '')
@@ -143,7 +143,7 @@ endfunction
   call s:hi('Statement',                          s:red,    '',       '',          '')
   call s:hi('StorageClass',                       s:yellow, '',       '',          '')
   call s:hi('String',                             s:green,  '',       '',          '')
-  call s:hi('Structure',                          s:purple, '',       '',          '')
+  call s:hi('Structure',                          s:lemon, '',       '',          '')
   call s:hi('Tag',                                s:yellow, '',       '',          '')
   call s:hi('Todo',                               s:yellow, s:base01, '',          '')
   call s:hi('Type',                               s:yellow, '',       '',          '')
