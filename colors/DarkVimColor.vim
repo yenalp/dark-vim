@@ -9,7 +9,7 @@
   if exists("syntax_on")
     syntax reset
   endif
-  let g:colors_name="DarkVim"
+  let g:colors_name="DarkVimColor"
 " }}}
 " {{{ Italics
   let g:dark_vim_terminal_italic = get(g:, 'dark_vim_terminal_italic', 0)
