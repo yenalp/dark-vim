@@ -123,11 +123,11 @@ endfunction
   call s:hi('Character',                          s:red,    '',       '',          '')
   call s:hi('Comment',                            s:base03, '',       s:italic,    '')
   call s:hi('Conditional',                        s:purple, '',       '',          '')
-  call s:hi('Constant',                           s:lghtgreen, '',       '',          '')
+  call s:hi('Constant',                           s:orange, '',       '',          '')
   call s:hi('Define',                             s:purple, '',       '',          '')
   call s:hi('Delimiter',                          s:brown,  '',       '',          '')
   call s:hi('Float',                              s:orange, '',       '',          '')
-  call s:hi('Function',                           s:blue,   '',       '',          '')
+  call s:hi('Function',                           s:cyan,   '',       '',          '')
 
   call s:hi('Identifier',                         s:cyan,   '',       '',          '')
   call s:hi('Include',                            s:blue,   '',       '',          '')
