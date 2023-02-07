@@ -199,7 +199,7 @@ endfunction
   call s:hi('csAttribute',                        s:yellow, '',       '',          '')
   call s:hi('csModifier',                         s:purple, '',       '',          '')
   call s:hi('csType',                             s:red,    '',       '',          '')
-  call s:hi('csUnspecifiedStatement',             s:blue,   '',       '',          '')
+  call s:hi('csUnspecifiedStatement',             s:Camel,   '',       '',          '')
   call s:hi('csContextualStatement',              s:purple, '',       '',          '')
   call s:hi('csNewDecleration',                   s:red,    '',       '',          '')
   call s:hi('cOperator',                          s:cyan,   '',       '',          '')
@@ -258,10 +258,10 @@ endfunction
   call s:hi('ALEInfoSign',                        s:white,  s:base00, s:bold,      '')
 
   call s:hi('NERDTreeExecFile',                   s:base05, '',       '',          '')
-  call s:hi('NERDTreeDirSlash',                   s:blue,   '',       '',          '')
-  call s:hi('NERDTreeOpenable',                   s:blue,   '',       '',          '')
+  call s:hi('NERDTreeDirSlash',                   s:Camel,   '',       '',          '')
+  call s:hi('NERDTreeOpenable',                   s:Camel,   '',       '',          '')
   call s:hi('NERDTreeFile',                       '',       s:none,   '',          '')
-  call s:hi('NERDTreeFlags',                      s:blue,   '',       '',          '')
+  call s:hi('NERDTreeFlags',                      s:Camel,   '',       '',          '')
 
   call s:hi('phpComparison',                      s:base05, '',       '',          '')
   call s:hi('phpParent',                          s:base05, '',       '',          '')
@@ -286,8 +286,8 @@ endfunction
 
   call s:hi('vimfilerLeaf',                       s:base05, '',       '',          '')
   call s:hi('vimfilerNormalFile',                 s:base05, s:base00, '',          '')
-  call s:hi('vimfilerOpenedFile',                 s:blue,   '',       '',          '')
-  call s:hi('vimfilerClosedFile',                 s:blue,   '',       '',          '')
+  call s:hi('vimfilerOpenedFile',                 s:Camel,   '',       '',          '')
+  call s:hi('vimfilerClosedFile',                 s:Camel,   '',       '',          '')
 
   call s:hi('GitGutterAdd',                       s:green,  s:base00, s:bold,      '')
   call s:hi('GitGutterChange',                    s:blue,   s:base00, s:bold,      '')
@@ -295,7 +295,7 @@ endfunction
   call s:hi('GitGutterChangeDelete',              s:purple, s:base00, s:bold,      '')
 
   call s:hi('SignifySignAdd',                     s:green,  s:base00, s:bold,      '')
-  call s:hi('SignifySignChange',                  s:blue,   s:base00, s:bold,      '')
+  call s:hi('SignifySignChange',                  s:Camel,   s:base00, s:bold,      '')
   call s:hi('SignifySignDelete',                  s:red,    s:base00, s:bold,      '')
   call s:hi('SignifySignChangeDelete',            s:purple, s:base00, s:bold,      '')
   call s:hi('SignifySignDeleteFirstLine',         s:red,    s:base00, s:bold,      '')
