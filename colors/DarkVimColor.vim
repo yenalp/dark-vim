@@ -124,7 +124,7 @@ endfunction
   call s:hi('Comment',                            s:base03, '',       s:italic,    '')
   call s:hi('Conditional',                        s:purple, '',       '',          '')
   call s:hi('Constant',                           s:orange, '',       '',          '')
-  call s:hi('Define',                             s:purple, '',       '',          '')
+  call s:hi('Define',                             s:lemon, '',       '',          '')
   call s:hi('Delimiter',                          s:brown,  '',       '',          '')
   call s:hi('Float',                              s:orange, '',       '',          '')
   call s:hi('Function',                           s:cyan,   '',       '',          '')
@@ -133,7 +133,7 @@ endfunction
   call s:hi('Include',                            s:blue,   '',       '',          '')
   call s:hi('Keyword',                            s:purple, '',       '',          '')
 
-  call s:hi('Label',                              s:yellow, '',       '',          '')
+  call s:hi('Label',                              s:lghtgreen, '',       '',          '')
   call s:hi('Number',                             s:orange, '',       '',          '')
   call s:hi('Operator',                           s:base05, '',       '',          '')
   call s:hi('PreProc',                            s:yellow, '',       '',          '')
