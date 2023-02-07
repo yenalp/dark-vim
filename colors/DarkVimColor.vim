@@ -132,7 +132,7 @@ endfunction
   call s:hi('Function',                           s:cyan,   '',       '',          '')
 
   call s:hi('Identifier',                         s:cyan,   '',       '',          '')
-  call s:hi('Include',                            s:blue,   '',       '',          '')
+  call s:hi('Include',                            s:Camel,   '',       '',          '')
   call s:hi('Keyword',                            s:lemon, '',       '',          '')
 
   call s:hi('Label',                              s:lemon, '',       '',          '')
@@ -161,7 +161,7 @@ endfunction
   call s:hi('LspDiagnosticsUnderlineWarning',     '',       '',       'undercurl', '')
 
   call s:hi('LspDiagnosticsDefaultInformation',   '',       '',       '',          '')
-  call s:hi('LspDiagnosticsSignInformation',      s:blue,   '',       '',          '')
+  call s:hi('LspDiagnosticsSignInformation',      s:Camel,   '',       '',          '')
   call s:hi('LspDiagnosticsUnderlineInformation', '',       '',       'undercurl', '')
 
   call s:hi('LspDiagnosticsDefaultHint',          '',       '',       '',          '')
@@ -213,11 +213,11 @@ endfunction
   call s:hi('DiffAdd',                            s:green,  s:base01, s:bold,      '')
   call s:hi('DiffChange',                         s:base03, s:base01, '',          '')
   call s:hi('DiffDelete',                         s:red,    s:base01, '',          '')
-  call s:hi('DiffText',                           s:blue,   s:base01, '',          '')
+  call s:hi('DiffText',                           s:Camel,   s:base01, '',          '')
   call s:hi('DiffAdded',                          s:base07, s:green,  s:bold,      '')
   call s:hi('DiffFile',                           s:red,    s:base00, '',          '')
   call s:hi('DiffNewFile',                        s:green,  s:base00, '',          '')
-  call s:hi('DiffLine',                           s:blue,   s:base00, '',          '')
+  call s:hi('DiffLine',                           s:Camel,   s:base00, '',          '')
   call s:hi('DiffRemoved',                        s:base07, s:red,    s:bold,      '')
 
   call s:hi('gitCommitOverflow',                  s:red,    '',       '',          '')
@@ -239,7 +239,7 @@ endfunction
 
   call s:hi('markdownCode',                       s:green,  '',       '',          '')
   call s:hi('markdownCodeBlock',                  s:green,  '',       '',          '')
-  call s:hi('markdownHeadingDelimiter',           s:blue,   '',       '',          '')
+  call s:hi('markdownHeadingDelimiter',           s:Camel,   '',       '',          '')
   call s:hi('markdownItalic',                     s:purple, '',       s:italic,    '')
   call s:hi('markdownBold',                       s:yellow, '',       s:bold,      '')
   call s:hi('markdownCodeDelimiter',              s:brown,  '',       s:italic,    '')
@@ -272,7 +272,7 @@ endfunction
 
   call s:hi('rubyConstant',                       s:yellow, '',       '',          '')
   call s:hi('rubySymbol',                         s:green,  '',       '',          '')
-  call s:hi('rubyAttribute',                      s:blue,   '',       '',          '')
+  call s:hi('rubyAttribute',                      s:Camel,   '',       '',          '')
   call s:hi('rubyInterpolation',                  s:green,  '',       '',          '')
   call s:hi('rubyInterpolationDelimiter',         s:brown,  '',       '',          '')
   call s:hi('rubyStringDelimiter',                s:green,  '',       '',          '')
@@ -282,7 +282,7 @@ endfunction
   call s:hi('sassClassChar',                      s:orange, '',       '',          '')
   call s:hi('sassInclude',                        s:purple, '',       '',          '')
   call s:hi('sassMixing',                         s:purple, '',       '',          '')
-  call s:hi('sassMixinName',                      s:blue,   '',       '',          '')
+  call s:hi('sassMixinName',                      s:Camel,   '',       '',          '')
 
   call s:hi('vimfilerLeaf',                       s:base05, '',       '',          '')
   call s:hi('vimfilerNormalFile',                 s:base05, s:base00, '',          '')
@@ -290,7 +290,7 @@ endfunction
   call s:hi('vimfilerClosedFile',                 s:Camel,   '',       '',          '')
 
   call s:hi('GitGutterAdd',                       s:green,  s:base00, s:bold,      '')
-  call s:hi('GitGutterChange',                    s:blue,   s:base00, s:bold,      '')
+  call s:hi('GitGutterChange',                    s:Camel,   s:base00, s:bold,      '')
   call s:hi('GitGutterDelete',                    s:red,    s:base00, s:bold,      '')
   call s:hi('GitGutterChangeDelete',              s:purple, s:base00, s:bold,      '')
 
@@ -303,19 +303,19 @@ endfunction
   call s:hi('xmlTag',                             s:cyan,   '',       '',          '')
   call s:hi('xmlTagName',                         s:base05, '',       '',          '')
   call s:hi('xmlEndTag',                          s:cyan,   '',       '',          '')
-  call s:hi('Defx_filename_directory',            s:blue,   '',       '',          '')
+  call s:hi('Defx_filename_directory',            s:Camel,   '',       '',          '')
 
   call s:hi('CocErrorSign',                       s:red,    '',       '',          '')
   call s:hi('CocWarningSign',                     s:yellow, '',       '',          '')
-  call s:hi('CocInfoSign',                        s:blue,   '',       '',          '')
+  call s:hi('CocInfoSign',                        s:Camel,   '',       '',          '')
   call s:hi('CocHintSign',                        s:cyan,   '',       '',          '')
   call s:hi('CocErrorFloat',                      s:red,    '',       '',          '')
   call s:hi('CocWarningFloat',                    s:yellow, '',       '',          '')
-  call s:hi('CocInfoFloat',                       s:blue,   '',       '',          '')
+  call s:hi('CocInfoFloat',                       s:Camel,   '',       '',          '')
   call s:hi('CocHintFloat',                       s:cyan,   '',       '',          '')
   call s:hi('CocDiagnosticsError',                s:red,    '',       '',          '')
   call s:hi('CocDiagnosticsWarning',              s:yellow, '',       '',          '')
-  call s:hi('CocDiagnosticsInfo',                 s:blue,   '',       '',          '')
+  call s:hi('CocDiagnosticsInfo',                 s:Camel,   '',       '',          '')
   call s:hi('CocDiagnosticsHint',                 s:cyan,   '',       '',          '')
   call s:hi('CocSelectedText',                    s:purple, '',       '',          '')
   call s:hi('CocCodeLens',                        s:base04, '',       '',          '')
