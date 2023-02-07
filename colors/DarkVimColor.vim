@@ -33,7 +33,7 @@
   let s:base04 = ['#a7adba', '145']
   let s:base05 = ['#c0c5ce', '251']
   let s:base06 = ['#cdd3de', '252']
-  let s:base07 = ['#d8dee9', '253']
+  let s:base07 = ['#00ff00', '253']
   let s:red    = ['#ff0000', '203']
   let s:orange = ['#ffa500', '209']
   let s:yellow = ['#ffff00', '221']
