@@ -69,7 +69,7 @@ endfunction
 " {{{ call s::hi(group, fg, bg, gui, guisp)
   call s:hi('Bold',                               '',       '',       s:bold,      '')
   call s:hi('Debug',                              s:red,    '',       '',          '')
-  call s:hi('Directory',                          s:blue,   '',       '',          '')
+  call s:hi('Directory',                          s:cyan,   '',       '',          '')
   call s:hi('ErrorMsg',                           s:red,    s:base00, '',          '')
   call s:hi('Exception',                          s:red,    '',       '',          '')
   call s:hi('FoldColumn',                         s:blue,   s:base00, '',          '')
