@@ -141,7 +141,7 @@ endfunction
   call s:hi('Special',                            s:cyan,   '',       '',          '')
   call s:hi('SpecialChar',                        s:brown,  '',       '',          '')
   call s:hi('Statement',                          s:red,    '',       '',          '')
-  call s:hi('StorageClass',                       s:yellow, '',       '',          '')
+  call s:hi('StorageClass',                       s:lghtgreen, '',       '',          '')
   call s:hi('String',                             s:green,  '',       '',          '')
   call s:hi('Structure',                          s:lemon, '',       '',          '')
   call s:hi('Tag',                                s:yellow, '',       '',          '')
