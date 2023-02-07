@@ -42,6 +42,7 @@
   let s:blue   = ['#0000ff', '68']
   let s:purple = ['#a020f0', '176']
   let s:brown  = ['#a52a2a', '137']
+  let s:lemon  = ['#ffb50', '80']
   let s:white  = ['#ffffff', '15']
   let s:none   = ['NONE',    'NONE']
 
@@ -121,7 +122,7 @@ endfunction
   call s:hi('Character',                          s:red,    '',       '',          '')
   call s:hi('Comment',                            s:base03, '',       s:italic,    '')
   call s:hi('Conditional',                        s:purple, '',       '',          '')
-  call s:hi('Constant',                           s:orange, '',       '',          '')
+  call s:hi('Constant',                           s:lemon, '',       '',          '')
   call s:hi('Define',                             s:purple, '',       '',          '')
   call s:hi('Delimiter',                          s:brown,  '',       '',          '')
   call s:hi('Float',                              s:orange, '',       '',          '')
