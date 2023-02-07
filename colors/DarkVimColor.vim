@@ -41,7 +41,7 @@
   let s:cyan   = ['#00ffff', '73']
   let s:blue   = ['#0000ff', '68']
   let s:purple = ['#a020f0', '176']
-  let s:brown  = ['#bf9c9a', '137']
+  let s:brown  = ['#fca100', '137']
   let s:lemon  = ['#fffb50', '80']
   let s:lghtgreen  = ['#60ff60', '81']
   let s:white  = ['#ffffff', '15']
