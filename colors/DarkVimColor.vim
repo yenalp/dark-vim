@@ -12,20 +12,8 @@
   endif
   let g:colors_name="DarkVimColor"
   let g:transparent_enabled = v:true
+" }}}
 
-" Italics {{{
-  " let g:dark_vim_terminal_italic = get(g:, 'dark_vim_terminal_italic', 0)
-  " let s:italic = ""
-  " if g:dark_vim_terminal_italic == 1
-  "   let s:italic = "italic"
-  " endif
-"}}}
-" Bold {{{  let g:dark_vim_terminal_bold = get(g:, 'dark_vim_terminal_bold', 0)
-  let s:bold = ""
-  if g:dark_vim_terminal_bold == 1
-   let s:bold = "bold"
-  endif
-"}}}
 " Colors {{{
   let s:base00 = ['#000000', '235']
   let s:base01 = ['#343d46', '237']
@@ -337,53 +325,4 @@ endfunction
     let g:terminal_color_14 = '#00ffff'   " Bright Cyan
     let g:terminal_color_7  = '#c0c5ce'   " White
     let g:terminal_color_15 = '#cdd3de'   " Bright White
-"
-"
-" if has('nvim')
-  " let g:terminal_color_0=s:base00[0]
-  " let g:terminal_color_8=s:base03[0]
-  "
-  " let g:terminal_color_1=s:red[0]
-  " let g:terminal_color_9=s:red[0]
-  "
-  " let g:terminal_color_2=s:green[0]
-  " let g:terminal_color_10=s:green[0]
-  "
-  " let g:terminal_color_3=s:yellow[0]
-  " let g:terminal_color_11=s:yellow[0]
-  "
-  " let g:terminal_color_4=s:blue[0]
-  " let g:terminal_color_12=s:blue[0]
-  "
-  " let g:terminal_color_5=s:purple[0]
-  " let g:terminal_color_13=s:purple[0]
-  "
-  " let g:terminal_color_6=s:cyan[0]
-  " let g:terminal_color_14=s:cyan[0]
-  "
-  " let g:terminal_color_7=s:base05[0]
-  " let g:terminal_color_15=s:base05[0]
-  "
-  " let g:terminal_color_background=s:base00[0]
-  " let g:terminal_color_foreground=s:white[0]
-" else
-"   let g:terminal_ansi_colors = [
-"      \ s:base00[0],
-"      \ s:red[0],
-"      \ s:green[0],
-"      \ s:yellow[0],
-"      \ s:blue[0],
-"      \ s:purple[0],
-"      \ s:cyan[0],
-"      \ s:white[0],
-"      \ s:base03[0],
-"      \ s:red[0],
-"      \ s:green[0],
-"      \ s:yellow[0],
-"      \ s:blue[0],
-"      \ s:purple[0],
-"      \ s:cyan[0],
-"      \ s:white[0],
-"      \]
-" endif
-
+" }}}
