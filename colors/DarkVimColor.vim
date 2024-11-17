@@ -321,33 +321,51 @@ endfunction
   call s:hi('CocCodeLens',                        s:base04, '',       '',          '')
 " }}}
 " {{{ Terminal
+    let g:terminal_color_0 = '#282c34'   " Black
+    let g:terminal_color_8 = '#4e5566'   " Bright Black
+    let g:terminal_color_1 = '#e06c75'   " Red
+    let g:terminal_color_9 = '#be5046'   " Bright Red
+    let g:terminal_color_2 = '#98c379'   " Green
+    let g:terminal_color_10 = '#b3e066'  " Bright Green
+    let g:terminal_color_3 = '#e5c07b'   " Yellow
+    let g:terminal_color_11 = '#d7ba7d'  " Bright Yellow
+    let g:terminal_color_4 = '#61afef'   " Blue
+    let g:terminal_color_12 = '#82b1ff'  " Bright Blue
+    let g:terminal_color_5 = '#c678dd'   " Magenta
+    let g:terminal_color_13 = '#d4a5ed'  " Bright Magenta
+    let g:terminal_color_6 = '#56b6c2'   " Cyan
+    let g:terminal_color_14 = '#89ddff'  " Bright Cyan
+    let g:terminal_color_7 = '#abb2bf'   " White
+    let g:terminal_color_15 = '#ffffff'  " Bright White
+"
+"
 " if has('nvim')
-  let g:terminal_color_0=s:base00[0]
-  let g:terminal_color_8=s:base03[0]
-
-  let g:terminal_color_1=s:red[0]
-  let g:terminal_color_9=s:red[0]
-
-  let g:terminal_color_2=s:green[0]
-  let g:terminal_color_10=s:green[0]
-
-  let g:terminal_color_3=s:yellow[0]
-  let g:terminal_color_11=s:yellow[0]
-
-  let g:terminal_color_4=s:blue[0]
-  let g:terminal_color_12=s:blue[0]
-
-  let g:terminal_color_5=s:purple[0]
-  let g:terminal_color_13=s:purple[0]
-
-  let g:terminal_color_6=s:cyan[0]
-  let g:terminal_color_14=s:cyan[0]
-
-  let g:terminal_color_7=s:base05[0]
-  let g:terminal_color_15=s:base05[0]
-
-  let g:terminal_color_background=s:base00[0]
-  let g:terminal_color_foreground=s:white[0]
+  " let g:terminal_color_0=s:base00[0]
+  " let g:terminal_color_8=s:base03[0]
+  "
+  " let g:terminal_color_1=s:red[0]
+  " let g:terminal_color_9=s:red[0]
+  "
+  " let g:terminal_color_2=s:green[0]
+  " let g:terminal_color_10=s:green[0]
+  "
+  " let g:terminal_color_3=s:yellow[0]
+  " let g:terminal_color_11=s:yellow[0]
+  "
+  " let g:terminal_color_4=s:blue[0]
+  " let g:terminal_color_12=s:blue[0]
+  "
+  " let g:terminal_color_5=s:purple[0]
+  " let g:terminal_color_13=s:purple[0]
+  "
+  " let g:terminal_color_6=s:cyan[0]
+  " let g:terminal_color_14=s:cyan[0]
+  "
+  " let g:terminal_color_7=s:base05[0]
+  " let g:terminal_color_15=s:base05[0]
+  "
+  " let g:terminal_color_background=s:base00[0]
+  " let g:terminal_color_foreground=s:white[0]
 " else
 "   let g:terminal_ansi_colors = [
 "      \ s:base00[0],
