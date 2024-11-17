@@ -321,22 +321,22 @@ endfunction
   call s:hi('CocCodeLens',                        s:base04, '',       '',          '')
 " }}}
 " {{{ Terminal
-    let g:terminal_color_0 = '#282c34'   " Black
-    let g:terminal_color_8 = '#4e5566'   " Bright Black
-    let g:terminal_color_1 = '#e06c75'   " Red
-    let g:terminal_color_9 = '#be5046'   " Bright Red
-    let g:terminal_color_2 = '#98c379'   " Green
-    let g:terminal_color_10 = '#b3e066'  " Bright Green
-    let g:terminal_color_3 = '#e5c07b'   " Yellow
-    let g:terminal_color_11 = '#d7ba7d'  " Bright Yellow
-    let g:terminal_color_4 = '#61afef'   " Blue
-    let g:terminal_color_12 = '#82b1ff'  " Bright Blue
-    let g:terminal_color_5 = '#c678dd'   " Magenta
-    let g:terminal_color_13 = '#d4a5ed'  " Bright Magenta
-    let g:terminal_color_6 = '#56b6c2'   " Cyan
-    let g:terminal_color_14 = '#89ddff'  " Bright Cyan
-    let g:terminal_color_7 = '#abb2bf'   " White
-    let g:terminal_color_15 = '#ffffff'  " Bright White
+    let g:terminal_color_0  = '#000000'   " Black
+    let g:terminal_color_8  = '#343d46'   " Bright Black (Dark Grey)
+    let g:terminal_color_1  = '#ff0000'   " Red
+    let g:terminal_color_9  = '#ff0000'   " Bright Red
+    let g:terminal_color_2  = '#00ff00'   " Green
+    let g:terminal_color_10 = '#00ff00'   " Bright Green
+    let g:terminal_color_3  = '#fffb50'   " Yellow
+    let g:terminal_color_11 = '#fffb50'   " Bright Yellow
+    let g:terminal_color_4  = '#0000ff'   " Blue
+    let g:terminal_color_12 = '#0000ff'   " Bright Blue
+    let g:terminal_color_5  = '#a020f0'   " Magenta (Purple)
+    let g:terminal_color_13 = '#a020f0'   " Bright Magenta
+    let g:terminal_color_6  = '#00ffff'   " Cyan
+    let g:terminal_color_14 = '#00ffff'   " Bright Cyan
+    let g:terminal_color_7  = '#c0c5ce'   " White
+    let g:terminal_color_15 = '#cdd3de'   " Bright White
 "
 "
 " if has('nvim')
