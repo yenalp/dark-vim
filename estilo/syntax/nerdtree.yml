@@ -2,8 +2,8 @@
 
 NERDTreePart:            '' # Special
 NERDTreePartFile:        '' # Type
-NERDTreeExecFile:        'green . .'
-NERDTreeDirSlash:        'green . .'
+NERDTreeExecFile:        'base05 . .'
+NERDTreeDirSlash:        'base0D . .'
 NERDTreeBookmarksHeader: '' # statement
 NERDTreeBookmarksLeader: '' # ignore
 NERDTreeBookmarkName:    '' # Identifier
@@ -21,7 +21,7 @@ NERDTreeDir:             '' # Directory
 NERDTreeUp:              '' # Directory
 NERDTreeFile:            '' # Normal
 NERDTreeCWD:             '' # Statement
-NERDTreeOpenable:        'green . .'
+NERDTreeOpenable:        'base0D . .'
 NERDTreeClosable:        '' # Title
 NERDTreeIgnore:          '' # ignore
 NERDTreeRO:              '' # WarningMsg
