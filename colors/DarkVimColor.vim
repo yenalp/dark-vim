@@ -14,11 +14,11 @@
   let g:transparent_enabled = v:true
 
 " Italics {{{
-  let g:dark_vim_terminal_italic = get(g:, 'dark_vim_terminal_italic', 0)
-  let s:italic = ""
-  if g:dark_vim_terminal_italic == 1
-    let s:italic = "italic"
-  endif
+  " let g:dark_vim_terminal_italic = get(g:, 'dark_vim_terminal_italic', 0)
+  " let s:italic = ""
+  " if g:dark_vim_terminal_italic == 1
+  "   let s:italic = "italic"
+  " endif
 "}}}
 " Bold {{{  let g:dark_vim_terminal_bold = get(g:, 'dark_vim_terminal_bold', 0)
   let s:bold = ""
