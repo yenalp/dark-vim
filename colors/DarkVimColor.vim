@@ -57,6 +57,20 @@ endfunction
   let s:none   = ['NONE',    'NONE']
 " }}}
 
+" {{{ Italics
+  let g:dark_vim_terminal_italic = get(g:, 'dark_vim_terminal_italic', 0)
+  let s:italic = ""
+  if g:dark_vim_terminal_italic == 1
+    let s:italic = "italic"
+  endif
+"}}}
+" {{{ Bold
+  let g:dark_vim_terminal_bold = get(g:, 'dark_vim_terminal_bold', 0)
+  let s:bold = ""
+  if g:dark_vim_terminal_bold == 1
+   let s:bold = "bold"
+  endif
+"}}}
 " Highlight function{{{ 
 function! s:hi(group, fg, bg, attr, attrsp)
   " fg, bg, attr, attrsp
