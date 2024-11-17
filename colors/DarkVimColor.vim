@@ -50,7 +50,7 @@
   let s:none   = ['NONE',    'NONE']
 " }}}
 
-" Highlight function {{{ 
+" Highlight function{{{ 
 function! s:hi(group, fg, bg, attr, attrsp)
   " fg, bg, attr, attrsp
   if !empty(a:fg)
@@ -321,7 +321,7 @@ endfunction
   call s:hi('CocCodeLens',                        s:base04, '',       '',          '')
 " }}}
 " {{{ Terminal
-if has('nvim')
+" if has('nvim')
   let g:terminal_color_0=s:base00[0]
   let g:terminal_color_8=s:base03[0]
 
@@ -348,24 +348,24 @@ if has('nvim')
 
   let g:terminal_color_background=s:base00[0]
   let g:terminal_color_foreground=s:white[0]
-else
-  let g:terminal_ansi_colors = [
-     \ s:base00[0],
-     \ s:red[0],
-     \ s:green[0],
-     \ s:yellow[0],
-     \ s:blue[0],
-     \ s:purple[0],
-     \ s:cyan[0],
-     \ s:white[0],
-     \ s:base03[0],
-     \ s:red[0],
-     \ s:green[0],
-     \ s:yellow[0],
-     \ s:blue[0],
-     \ s:purple[0],
-     \ s:cyan[0],
-     \ s:white[0],
-     \]
-endif
+" else
+"   let g:terminal_ansi_colors = [
+"      \ s:base00[0],
+"      \ s:red[0],
+"      \ s:green[0],
+"      \ s:yellow[0],
+"      \ s:blue[0],
+"      \ s:purple[0],
+"      \ s:cyan[0],
+"      \ s:white[0],
+"      \ s:base03[0],
+"      \ s:red[0],
+"      \ s:green[0],
+"      \ s:yellow[0],
+"      \ s:blue[0],
+"      \ s:purple[0],
+"      \ s:cyan[0],
+"      \ s:white[0],
+"      \]
+" endif
 
