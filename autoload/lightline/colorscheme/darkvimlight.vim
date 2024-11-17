@@ -1,8 +1,6 @@
 " ============================================================
 " oceanicnextlight
-" 
-" URL: 
-" Author: Mike Hartington
+" Author: Paul Laney
 " License: Apache
 " Last Change: 2017/07/22 18:33
 " ============================================================

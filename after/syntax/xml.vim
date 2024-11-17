@@ -1,9 +1,9 @@
 " ===============================================================
-" OceanicNext
+" DarkVim
 " Language: XML
 " Description: Overrides for XML
-" Author: Mike Hartington
-" Last Change: 2016/12/11 17:28
+" Author: Paul Laney
+" Last Change: 2023/02/08 17:28
 " ===============================================================
 
 syn region xmlEndTag

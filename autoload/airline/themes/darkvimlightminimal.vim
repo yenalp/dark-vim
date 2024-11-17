@@ -1,6 +1,6 @@
 " ============================================================
 " oceanicnextlightminimal
-" Author: Mike Hartington
+" Author: Paul Laney
 " ============================================================
 
 " {{{ Colors
