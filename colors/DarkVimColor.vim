@@ -363,34 +363,34 @@ endfunction
 " {{{ lualine_theme
 let g:lualine_theme = {
 \ 'normal': {
-\   'a': { 'fg': s:base00[0], 'bg': s:blue[0], 'gui': 'bold' },
-\   'b': { 'fg': s:base06[0], 'bg': s:base02[0] },
-\   'c': { 'fg': s:base04[0], 'bg': s:base01[0] },
+\   'a': { 'fg': '#c0c5ce', 'bg': '#0000ff', 'gui': 'bold' },
+\   'b': { 'fg': '#c0c5ce', 'bg': '#343d46' },
+\   'c': { 'fg': '#c0c5ce', 'bg': '#4f5b66' },
 \ },
 \ 'insert': {
-\   'a': { 'fg': s:base00[0], 'bg': s:green[0], 'gui': 'bold' },
-\   'b': { 'fg': s:base06[0], 'bg': s:base02[0] },
-\   'c': { 'fg': s:base04[0], 'bg': s:base01[0] },
+\   'a': { 'fg': '#c0c5ce', 'bg': '#00ff00', 'gui': 'bold' },
+\   'b': { 'fg': '#c0c5ce', 'bg': '#343d46' },
+\   'c': { 'fg': '#c0c5ce', 'bg': '#4f5b66' },
 \ },
 \ 'visual': {
-\   'a': { 'fg': s:base00[0], 'bg': s:purple[0], 'gui': 'bold' },
-\   'b': { 'fg': s:base06[0], 'bg': s:base02[0] },
-\   'c': { 'fg': s:base04[0], 'bg': s:base01[0] },
+\   'a': { 'fg': '#c0c5ce', 'bg': '#a020f0', 'gui': 'bold' },
+\   'b': { 'fg': '#c0c5ce', 'bg': '#343d46' },
+\   'c': { 'fg': '#c0c5ce', 'bg': '#4f5b66' },
 \ },
 \ 'replace': {
-\   'a': { 'fg': s:base00[0], 'bg': s:red[0], 'gui': 'bold' },
-\   'b': { 'fg': s:base06[0], 'bg': s:base02[0] },
-\   'c': { 'fg': s:base04[0], 'bg': s:base01[0] },
+\   'a': { 'fg': '#c0c5ce', 'bg': '#ff0000', 'gui': 'bold' },
+\   'b': { 'fg': '#c0c5ce', 'bg': '#343d46' },
+\   'c': { 'fg': '#c0c5ce', 'bg': '#4f5b66' },
 \ },
 \ 'command': {
-\   'a': { 'fg': s:base00[0], 'bg': s:yellow[0], 'gui': 'bold' },
-\   'b': { 'fg': s:base06[0], 'bg': s:base02[0] },
-\   'c': { 'fg': s:base04[0], 'bg': s:base01[0] },
+\   'a': { 'fg': '#000000', 'bg': '#fffb50', 'gui': 'bold' },
+\   'b': { 'fg': '#c0c5ce', 'bg': '#343d46' },
+\   'c': { 'fg': '#c0c5ce', 'bg': '#4f5b66' },
 \ },
 \ 'inactive': {
-\   'a': { 'fg': s:base04[0], 'bg': s:base01[0], 'gui': 'bold' },
-\   'b': { 'fg': s:base04[0], 'bg': s:base01[0] },
-\   'c': { 'fg': s:base04[0], 'bg': s:base01[0] },
-\ },
+\   'a': { 'fg': '#65737e', 'bg': '#343d46', 'gui': 'bold' },
+\   'b': { 'fg': '#65737e', 'bg': '#343d46' },
+\   'c': { 'fg': '#65737e', 'bg': '#343d46' },
+\ }
 \ }
 " }}}
