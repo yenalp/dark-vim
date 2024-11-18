@@ -363,34 +363,34 @@ endfunction
 " {{{ lualine_theme
 let g:lualine_theme = {
 \ 'normal': {
-\   'a': { 'fg': '#c0c5ce', 'bg': '#0000ff', 'gui': 'bold' },
-\   'b': { 'fg': '#c0c5ce', 'bg': '#343d46' },
-\   'c': { 'fg': '#c0c5ce', 'bg': '#4f5b66' },
+\   'a': { 'fg': '#ffffff', 'bg': '#ff4d4d', 'gui': 'bold' }, " Bright red background, white text
+\   'b': { 'fg': '#ffffff', 'bg': '#b30000' },                " Darker red
+\   'c': { 'fg': '#ffffff', 'bg': '#800000' },                " Deep red for main bar
 \ },
 \ 'insert': {
-\   'a': { 'fg': '#c0c5ce', 'bg': '#00ff00', 'gui': 'bold' },
-\   'b': { 'fg': '#c0c5ce', 'bg': '#343d46' },
-\   'c': { 'fg': '#c0c5ce', 'bg': '#4f5b66' },
+\   'a': { 'fg': '#ffffff', 'bg': '#ff4d4d', 'gui': 'bold' },
+\   'b': { 'fg': '#ffffff', 'bg': '#b30000' },
+\   'c': { 'fg': '#ffffff', 'bg': '#800000' },
 \ },
 \ 'visual': {
-\   'a': { 'fg': '#c0c5ce', 'bg': '#a020f0', 'gui': 'bold' },
-\   'b': { 'fg': '#c0c5ce', 'bg': '#343d46' },
-\   'c': { 'fg': '#c0c5ce', 'bg': '#4f5b66' },
+\   'a': { 'fg': '#ffffff', 'bg': '#ff4d4d', 'gui': 'bold' },
+\   'b': { 'fg': '#ffffff', 'bg': '#b30000' },
+\   'c': { 'fg': '#ffffff', 'bg': '#800000' },
 \ },
 \ 'replace': {
-\   'a': { 'fg': '#c0c5ce', 'bg': '#ff0000', 'gui': 'bold' },
-\   'b': { 'fg': '#c0c5ce', 'bg': '#343d46' },
-\   'c': { 'fg': '#c0c5ce', 'bg': '#4f5b66' },
+\   'a': { 'fg': '#ffffff', 'bg': '#ff4d4d', 'gui': 'bold' },
+\   'b': { 'fg': '#ffffff', 'bg': '#b30000' },
+\   'c': { 'fg': '#ffffff', 'bg': '#800000' },
 \ },
 \ 'command': {
-\   'a': { 'fg': '#000000', 'bg': '#fffb50', 'gui': 'bold' },
-\   'b': { 'fg': '#c0c5ce', 'bg': '#343d46' },
-\   'c': { 'fg': '#c0c5ce', 'bg': '#4f5b66' },
+\   'a': { 'fg': '#ffffff', 'bg': '#ff4d4d', 'gui': 'bold' },
+\   'b': { 'fg': '#ffffff', 'bg': '#b30000' },
+\   'c': { 'fg': '#ffffff', 'bg': '#800000' },
 \ },
 \ 'inactive': {
-\   'a': { 'fg': '#65737e', 'bg': '#343d46', 'gui': 'bold' },
-\   'b': { 'fg': '#65737e', 'bg': '#343d46' },
-\   'c': { 'fg': '#65737e', 'bg': '#343d46' },
+\   'a': { 'fg': '#cccccc', 'bg': '#4d0000', 'gui': 'bold' }, " Muted red for inactive state
+\   'b': { 'fg': '#cccccc', 'bg': '#4d0000' },
+\   'c': { 'fg': '#cccccc', 'bg': '#4d0000' },
 \ }
 \ }
 " }}}
