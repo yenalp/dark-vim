@@ -359,3 +359,38 @@ endfunction
     let g:terminal_color_7  = '#c0c5ce'   " White
     let g:terminal_color_15 = '#cdd3de'   " Bright White
 " }}}
+
+" {{{ lualine_theme
+let g:lualine_theme = {
+  'normal': {
+    'a': { 'fg': s:base00[0], 'bg': s:blue[0], 'gui': 'bold' },
+    'b': { 'fg': s:base06[0], 'bg': s:base02[0] },
+    'c': { 'fg': s:base04[0], 'bg': s:base01[0] },
+  },
+  'insert': {
+    'a': { 'fg': s:base00[0], 'bg': s:green[0], 'gui': 'bold' },
+    'b': { 'fg': s:base06[0], 'bg': s:base02[0] },
+    'c': { 'fg': s:base04[0], 'bg': s:base01[0] },
+  },
+  'visual': {
+    'a': { 'fg': s:base00[0], 'bg': s:purple[0], 'gui': 'bold' },
+    'b': { 'fg': s:base06[0], 'bg': s:base02[0] },
+    'c': { 'fg': s:base04[0], 'bg': s:base01[0] },
+  },
+  'replace': {
+    'a': { 'fg': s:base00[0], 'bg': s:red[0], 'gui': 'bold' },
+    'b': { 'fg': s:base06[0], 'bg': s:base02[0] },
+    'c': { 'fg': s:base04[0], 'bg': s:base01[0] },
+  },
+  'command': {
+    'a': { 'fg': s:base00[0], 'bg': s:yellow[0], 'gui': 'bold' },
+    'b': { 'fg': s:base06[0], 'bg': s:base02[0] },
+    'c': { 'fg': s:base04[0], 'bg': s:base01[0] },
+  },
+  'inactive': {
+    'a': { 'fg': s:base04[0], 'bg': s:base01[0], 'gui': 'bold' },
+    'b': { 'fg': s:base04[0], 'bg': s:base01[0] },
+    'c': { 'fg': s:base04[0], 'bg': s:base01[0] },
+  },
+}
+" }}}
