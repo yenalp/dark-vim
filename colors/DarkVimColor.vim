@@ -359,38 +359,3 @@ endfunction
     let g:terminal_color_7  = '#c0c5ce'   " White
     let g:terminal_color_15 = '#cdd3de'   " Bright White
 " }}}
-
-" {{{ lualine_theme
-let g:lualine_theme = {
-\ 'normal': {
-\   'a': {'fg': '#ffffff', 'bg': '#ff4d4d', 'gui': 'bold'},
-\   'b': {'fg': '#ffffff', 'bg': '#b30000'},
-\   'c': {'fg': '#ffffff', 'bg': '#800000'},
-\ },
-\ 'insert': {
-\   'a': {'fg': '#ffffff', 'bg': '#ff4d4d', 'gui': 'bold'},
-\   'b': {'fg': '#ffffff', 'bg': '#b30000'},
-\   'c': {'fg': '#ffffff', 'bg': '#800000'},
-\ },
-\ 'visual': {
-\   'a': {'fg': '#ffffff', 'bg': '#ff4d4d', 'gui': 'bold'},
-\   'b': {'fg': '#ffffff', 'bg': '#b30000'},
-\   'c': {'fg': '#ffffff', 'bg': '#800000'},
-\ },
-\ 'replace': {
-\   'a': {'fg': '#ffffff', 'bg': '#ff4d4d', 'gui': 'bold'},
-\   'b': {'fg': '#ffffff', 'bg': '#b30000'},
-\   'c': {'fg': '#ffffff', 'bg': '#800000'},
-\ },
-\ 'command': {
-\   'a': {'fg': '#ffffff', 'bg': '#ff4d4d', 'gui': 'bold'},
-\   'b': {'fg': '#ffffff', 'bg': '#b30000'},
-\   'c': {'fg': '#ffffff', 'bg': '#800000'},
-\ },
-\ 'inactive': {
-\   'a': {'fg': '#cccccc', 'bg': '#4d0000', 'gui': 'bold'},
-\   'b': {'fg': '#cccccc', 'bg': '#4d0000'},
-\   'c': {'fg': '#cccccc', 'bg': '#4d0000'},
-\ }
-\ }
-" }}}
