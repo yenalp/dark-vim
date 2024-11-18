@@ -363,35 +363,34 @@ endfunction
 " {{{ lualine_theme
 let g:lualine_theme = {
 \ 'normal': {
-\   'a': { 'fg': '#ffffff', 'bg': '#ff4d4d', 'gui': 'bold' }, " Bright red background, white text
-\   'b': { 'fg': '#ffffff', 'bg': '#b30000' },                " Darker red
-\   'c': { 'fg': '#ffffff', 'bg': '#800000' },                " Deep red for main bar
+\   'a': {'fg': '#ffffff', 'bg': '#ff4d4d', 'gui': 'bold'},
+\   'b': {'fg': '#ffffff', 'bg': '#b30000'},
+\   'c': {'fg': '#ffffff', 'bg': '#800000'},
 \ },
 \ 'insert': {
-\   'a': { 'fg': '#ffffff', 'bg': '#ff4d4d', 'gui': 'bold' },
-\   'b': { 'fg': '#ffffff', 'bg': '#b30000' },
-\   'c': { 'fg': '#ffffff', 'bg': '#800000' },
+\   'a': {'fg': '#ffffff', 'bg': '#ff4d4d', 'gui': 'bold'},
+\   'b': {'fg': '#ffffff', 'bg': '#b30000'},
+\   'c': {'fg': '#ffffff', 'bg': '#800000'},
 \ },
 \ 'visual': {
-\   'a': { 'fg': '#ffffff', 'bg': '#ff4d4d', 'gui': 'bold' },
-\   'b': { 'fg': '#ffffff', 'bg': '#b30000' },
-\   'c': { 'fg': '#ffffff', 'bg': '#800000' },
+\   'a': {'fg': '#ffffff', 'bg': '#ff4d4d', 'gui': 'bold'},
+\   'b': {'fg': '#ffffff', 'bg': '#b30000'},
+\   'c': {'fg': '#ffffff', 'bg': '#800000'},
 \ },
 \ 'replace': {
-\   'a': { 'fg': '#ffffff', 'bg': '#ff4d4d', 'gui': 'bold' },
-\   'b': { 'fg': '#ffffff', 'bg': '#b30000' },
-\   'c': { 'fg': '#ffffff', 'bg': '#800000' },
+\   'a': {'fg': '#ffffff', 'bg': '#ff4d4d', 'gui': 'bold'},
+\   'b': {'fg': '#ffffff', 'bg': '#b30000'},
+\   'c': {'fg': '#ffffff', 'bg': '#800000'},
 \ },
 \ 'command': {
-\   'a': { 'fg': '#ffffff', 'bg': '#ff4d4d', 'gui': 'bold' },
-\   'b': { 'fg': '#ffffff', 'bg': '#b30000' },
-\   'c': { 'fg': '#ffffff', 'bg': '#800000' },
+\   'a': {'fg': '#ffffff', 'bg': '#ff4d4d', 'gui': 'bold'},
+\   'b': {'fg': '#ffffff', 'bg': '#b30000'},
+\   'c': {'fg': '#ffffff', 'bg': '#800000'},
 \ },
 \ 'inactive': {
-\   'a': { 'fg': '#cccccc', 'bg': '#4d0000', 'gui': 'bold' }, " Muted red for inactive state
-\   'b': { 'fg': '#cccccc', 'bg': '#4d0000' },
-\   'c': { 'fg': '#cccccc', 'bg': '#4d0000' },
+\   'a': {'fg': '#cccccc', 'bg': '#4d0000', 'gui': 'bold'},
+\   'b': {'fg': '#cccccc', 'bg': '#4d0000'},
+\   'c': {'fg': '#cccccc', 'bg': '#4d0000'},
 \ }
 \ }
-
 " }}}
