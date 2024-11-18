@@ -393,4 +393,5 @@ let g:lualine_theme = {
 \   'c': { 'fg': '#cccccc', 'bg': '#4d0000' },
 \ }
 \ }
+
 " }}}
