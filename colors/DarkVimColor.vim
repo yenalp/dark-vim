@@ -339,6 +339,14 @@ endfunction
   call s:hi('CocDiagnosticsInfo',                 s:Camel,   '',       '',          '')
   call s:hi('CocDiagnosticsHint',                 s:cyan,   '',       '',          '')
   call s:hi('CocSelectedText',                    s:purple, '',       '',          '')
+  
+  call s:hi('TelescopeTitle,                      s:red, '',       '',          '')
+  call s:hi('TelescopeBorder,                     s:red,  s:red,       '',          '')
+  call s:hi('TelescopePromptBorder,               s:red,  s:red,       '',          '')
+  call s:hi('TelescopeResultsBorder,              s:red,  s:red,       '',          '')
+  call s:hi('TelescopePreviewBorder,              s:red,  s:red,       '',          '')
+  call s:hi('TelescopeSelection,                  s:red, '',       '',          '')
+  call s:hi('TelescopeResultsBorder,              s:red, s:red,      '',          '') 
   call s:hi('CocCodeLens',                        s:base04, '',       '',          '')
 " }}}
 " {{{ Terminal
